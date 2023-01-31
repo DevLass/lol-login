@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Raleway, sans-serif;
+}
+
+.bg-img {
+	background-image: url(https://staticc.sportskeeda.com/editor/2022/07/1ab87-16566220700412-1920.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.riot {
+	text-align: center;
+	margin-bottom: -50px;
+}
+
+.riot img {
+	width: 40%;
+}
+
+h1 {
+	text-align: center;
+	padding: 0px 0px 30px 0px;
+}
+
+.container {
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	min-height: 100vh;
+}
+
+.screen {
+	background: white;
+	position: relative;
+	width: 350px;
+	box-shadow: 0px 0px 24px black;
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;
+	height: 100px;
+}
+
+.login {
+	width: 350px;
+	padding: 15px 30px;
+}
+
+.login__field {
+	padding: 5px 0px;
+	position: relative;
+}
+
+.login__input {
+	border: 2px solid #eee;
+	border-radius: 8px;
+	background-color: #eee;
+	padding: 15px;
+	padding-right: 115px;
+	font-weight: 700;
+	transition: 0.2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-color: black;
+}
+
+.login__input:focus {
+	background-color: white;
+}
+
+::placeholder {
+	color: black;
+}
+
+.col {
+	text-align: center;
+	margin: auto;
+	padding: 0 50px px;
+}
+
+.col button {
+	position: relative;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	font-size: 1px;
+	padding: 8px 0px;
+	width: 70px;
+	text-align: center;
+	-webkit-transition-duration: 0.4s; /* safari */
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.col button::after {
+	content: "";
+	background: white;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px !important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s;
+}
+
+.col button:active::after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s;
+}
+
+.fb {
+	font-size: 26px;
+	color: white;
+}
+
+.google {
+	color: white;
+	font-size: 26px;
+}
+
+.apple {
+	color: white;
+	font-size: 26px;
+}
+
+.xbox-btn {
+	background-color: #0e7a0d !important;
+}
+
+.xbox {
+	color: white;
+	font-size: 26px;
+}
+
+label {
+	padding-left: 32px;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+}
+
+label strong{
+    margin-left: 5px;
+}
+
+.login__submit {
+	background: #eee;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 18px 22px;
+	border-radius: 18px;
+	border: 1px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	box-shadow: black;
+	cursor: pointer;
+	transition: 0.2;
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
+	color: #404040;
+	transition: 250ms;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	background-color: #dc2626;
+	color: white;
+	outline: none;
+}
+
+.button__icon {
+	font-size: 30px;
+	margin-left: auto;
+}
+
+.btn {
+	font-size: 14px;
+}
+
+.col .facebook {
+	background-color: #3b5998;
+}
+
+.col .google {
+	background-color: #dd4b39;
+}
+
+.links {
+	margin-top: 140%;
+}
+
+.links a {
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3px;
+	color: rgb(192, 192, 192);
+	transition: 250ms;
+	font-family: "Secular One", sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.links a:hover {
+	color: rgb(20, 20, 20);
+}
